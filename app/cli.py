@@ -41,6 +41,5 @@ def list_todos():
                 todo.get_cat_list()])
         print(tabulate(data, headers=["Text", "Done", "User", "Categories"]))
 
-
 if __name__ == "__main__":
     cli()
